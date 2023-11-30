@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./Assets/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option" >
+                        <img src="./Assets/library_icon.png" alt="">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <div class="box-p1">Create your first playlist</div>
+                        <br>
+                        <div class="box-p2">It's easy, we'll help you</div>
+                        <br>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <div class="box-p1">Let's find some podcast to follow</div>
+                        <br>
+                        <div class="box-p2">We'll keep you updated on new episodes</div>
+                        <br>
+                        <button class="badge">Browse podcast</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./Assets/backward_icon.png" alt="#" class="backward_icon">
+                    <img src="./Assets/forward_icon.png" alt="#" class="hide forward_icon">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down" style="margin-right:5px;"></i>Install App</button>
+                    <i class="fa-regular fa-circle-user nav-item user-icon"></i>
+                </div>
+            </div>
+                <h2>Recently played</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./Assets/card.jpg" alt="#" class="card-image">
+                        <p class="card-title">Moons</p>
+                        <p class="card-info">2 shawties in their own world...now they're each other's world.</p>
+                    </div>
+                </div>
+                <h2>Made for Nitish Pradhan</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./Assets/card1.jpg" alt="#" class="card-image">
+                        <p class="card-title">Lover (Remix) [feat...</p>
+                        <p class="card-info">Taylor Swift, Shawn Mendes
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assets/card2.jpg" alt="#" class="card-image">
+                        <p class="card-title">Those Eyes</p>
+                        <p class="card-info">New West</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assets/card3.jpg" alt="#" class="card-image">
+                        <p class="card-title">Better</p>
+                        <p class="card-info">Khalid                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assets/card4.jpg" alt="#" class="card-image">
+                        <p class="card-title">Perfect</p>
+                        <p class="card-info">Ed Sheeran
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assets/card5.jpg" alt="#" class="card-image">
+                        <p class="card-title">With You</p>
+                        <p class="card-info">AP Dhillon
+
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assets/card6.jpg" alt="#" class="card-image">
+                        <p class="card-title">One Dance</p>
+                        <p class="card-info">Drake
+
+                        </p>
+                    </div>
+                </div>
+                <h2>Your favourite artists</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./Assets/2.jpeg" alt="#" class="card-image artist-card">
+                        <p class="card-title">Taylor Swift</p>
+                        <p class="card-info">Artist</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assets/3.jpeg" alt="#" class="card-image artist-card">
+                        <p class="card-title">Ed Sheeran</p>
+                        <p class="card-info">Artist</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assets/4.jpeg" alt="#" class="card-image artist-card">
+                        <p class="card-title">Drake</p>
+                        <p class="card-info">Artist</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assets/5.jpeg" alt="#" class="card-image artist-card">
+                        <p class="card-title">XXXTENTACION</p>
+                        <p class="card-info">Artist</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assets/6.jpeg" alt="#" class="card-image artist-card">
+                        <p class="card-title">Juice WRLD</p>
+                        <p class="card-info">Artist</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assets/7.jpeg" alt="#" class="card-image artist-card">
+                        <p class="card-title">The Weeknd</p>
+                        <p class="card-info">Artist</p>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="line"></div>
+                </div>
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <div class="playing-song">
+                    <img src="./Assets/2.jpeg" alt="" class="playing-icon">
+                    <div>
+                        <p class="curr-song">Lover (Remix) [feat. Shawn Mendes]</p>
+                        <p class="curr-artist">Taylor Swift, Shawn Mendes</p>
+                    </div>
+                    <img src="./Assets/album_icon1.png" alt="#" class="like-icon">
+                </div>
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./Assets/player_icon1.png" alt="#" class="player-control-icon">
+                    <img src="./Assets/player_icon2.png" alt="#" class="player-control-icon">
+                    <img src="./Assets/player_icon3.png" alt="#" class="player-control-icon " style="opacity: 1; height: 2rem;">
+                    <img src="./Assets/player_icon4.png" alt="#" class="player-control-icon">
+                    <img src="./Assets/player_icon5.png" alt="#" class="player-control-icon">
+                </div>
+                
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="tot-time">3:33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <div class="control-icon">
+                    <img src="./Assets/controls_icon1.png" alt="#" class="ctrl-icon">
+                    <img src="./Assets/controld_icon2.png" alt="#" class="ctrl-icon">
+                    <img src="./Assets/controls_icon3.png" alt="#" class="ctrl-icon" style="height: 1.4rem;">
+                    <img src="./Assets/controls_icon4.png" alt="#" class="ctrl-icon" style="height: 1rem;">
+                    <img src="./Assets/controls_icon5.png" alt="#" class="ctrl-icon">
+                    <input type="range" class="vol-bar" step="1">
+                    <img src="./Assets/album_icon2.png" alt="#" class="ctrl-icon">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
